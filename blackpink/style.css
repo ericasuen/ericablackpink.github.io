@@ -1,7 +1,7 @@
 
 
 p{
-font-size: 30px;
+font-size: 26px;
 color:white;
 font-family:Times New Roman, serif;
 
@@ -159,6 +159,7 @@ marquee {
     overflow-y: hidden ;
     scroll-behavior: smooth;
     scroll-snap-type: x proximity;
+    position: relative; 
 }
 .slider::-webkit-scrollbar{
      display: none;
