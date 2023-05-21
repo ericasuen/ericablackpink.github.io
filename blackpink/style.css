@@ -142,6 +142,7 @@ marquee {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    position: static;
 }
 .container{
     width: 100%;
@@ -159,10 +160,11 @@ marquee {
     overflow-y: hidden ;
     scroll-behavior: smooth;
     scroll-snap-type: x proximity;
-    position: relative; 
+    position: static; 
 }
 .slider::-webkit-scrollbar{
      display: none;
+	 position: static;
 }
 .box{
     scroll-snap-align: center;
